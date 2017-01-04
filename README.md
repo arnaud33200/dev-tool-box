@@ -3,6 +3,7 @@ this git repository is used for :
 - memo on programming language
 - Create and settup a project faster
 - Set up a dev environment easily : git, dev tools ...
+- Design pattern, good pratice
 
 
 ## Sublime Text
