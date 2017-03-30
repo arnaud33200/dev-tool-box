@@ -5,6 +5,9 @@ this git repository is used for :
 - Set up a dev environment easily : git, dev tools ...
 - Design pattern, good pratice
 
+## IOS / Xcode 
+
+- Open Radar : http://www.openradar.me/page/1
 
 ## Sublime Text
 
@@ -15,4 +18,3 @@ this git repository is used for :
   "remember_open_files": false
 }
 ```
-
