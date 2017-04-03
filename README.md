@@ -5,9 +5,14 @@ this git repository is used for :
 - Set up a dev environment easily : git, dev tools ...
 - Design pattern, good pratice
 
+First I will enumerate links / command of useful tools / config
+After that I will prepare folder, package, script with those config & tools
+Finaly I will make folder / script of quick start project for any language : java, c++, php, ...
+
 ## IOS / Xcode 
 
 - Open Radar : http://www.openradar.me/page/1
+- Alcatraz Package Manager : http://alcatraz.io/
 
 ## Sublime Text
 
