@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [NUUIViewHelper setCenterXConstraintToView:self.view1 withSuperView:self withConstant:0.0];
+
+NSDictionary *viewsDictionary = @{@"v1":self.view1, @"v2":self.view2, @"v3":self.view3};
+NSMutableArray *constraintStringFormatArray = [[NSMutableArray alloc] init];
+[constraintStringFormatArray addObject:[NSString stringWithFormat:@"H:|-0-[v1]-0-[v2]-0-[v3]-0-|"]];
+[constraintStringFormatArray addObject:[NSString stringWithFormat:@"V:|-0-[v1]-0-[v2]-0-[v3]-0-|"]];    // right = bottom
+[NUUIViewHelper setConstraintWithSuperView:self withStringFormatArray:constraintStringFormatArray withViewDict:viewsDictionary];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ECE51FB6-8D9A-4087-B8CE-A7BB6B93F891</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Define Constraint</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
