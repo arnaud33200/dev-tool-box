@@ -1,3 +1,11 @@
+## To do
+- [ ] list all programming language
+- [ ] list basic function & algorith (loop, regex, data structure, ...)
+
+## Project Description
+
+use a programming long time not used or start not known yet. Those tools will help instead of searching everything on internet
+
 Group tools, Code lines, command, project, ...
 this git repository is used for :
 - memo on programming language
