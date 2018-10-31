@@ -22,6 +22,13 @@ Finaly I will make folder / script of quick start project for any language : jav
 - Open Radar : http://www.openradar.me/page/1
 - Alcatraz Package Manager : http://alcatraz.io/
 
+## Android / Android Studio
+
+* Utils Project
+   * https://github.com/iknow4/Android-utils
+   * https://github.com/mauriciotogneri/android-utils
+   * https://github.com/iknow4/from-java-to-kotlin
+
 ## Sublime Text
 
 - disable auto-loading : Packages --> User --> Global.sublime-settings
