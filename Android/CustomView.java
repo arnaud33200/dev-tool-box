@@ -11,12 +11,13 @@ public class CustomView extends RelativeLayout {
     }
 
     private void init(Context context) {
-
+    // setup View from layout
         int layoutRes = 0; // TODO: set layout res
-
         LayoutInflater inflater = LayoutInflater.from(context);
         View rootView = inflater.inflate(layoutRes, null, false);
-
         addView(rootView);
+        
+    // setup view component
+        // TODO
     }
 }
