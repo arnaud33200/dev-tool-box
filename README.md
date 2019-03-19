@@ -24,6 +24,8 @@ Finaly I will make folder / script of quick start project for any language : jav
 
 ## Android / Android Studio
 
+https://jitpack.io/
+
 * Utils Project
    * https://github.com/iknow4/Android-utils
    * https://github.com/mauriciotogneri/android-utils
