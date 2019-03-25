@@ -30,6 +30,7 @@ https://jitpack.io/
    * https://github.com/iknow4/Android-utils
    * https://github.com/mauriciotogneri/android-utils
    * https://github.com/iknow4/from-java-to-kotlin
+   * https://material.io/design/motion/?fbclid=IwAR1XXY1kQu8u6CnyA99mlyYPNc5RfqNCs41JAhI5G6UYCeccDxqKiy52PYE#
 
 ## Sublime Text
 
