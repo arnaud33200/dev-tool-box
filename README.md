@@ -26,6 +26,8 @@ Finaly I will make folder / script of quick start project for any language : jav
 
 https://jitpack.io/
 
+https://itnext.io/the-android-launchmode-animated-cheatsheet-6657e5dd9b0f
+
 * Utils Project
    * https://github.com/iknow4/Android-utils
    * https://github.com/mauriciotogneri/android-utils
