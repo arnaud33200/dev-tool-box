@@ -28,3 +28,10 @@ function onEdit(e) {
   // Column number = currentRange.getColumn()
 }
 ```
+
+### Utils
+
+compare string regex:
+```javascript
+var result = RegExp(regexText).test(textToSearchRegex);
+```
