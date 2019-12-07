@@ -33,5 +33,8 @@ function onEdit(e) {
 
 compare string regex:
 ```javascript
-var result = RegExp(regexText).test(textToSearchRegex);
+var result = RegExp(textToSearch).test(fullText);
+
+// OR Index of
+if (fullText.indexOf(textToSearch) > -1) {
 ```
