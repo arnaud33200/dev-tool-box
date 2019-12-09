@@ -16,7 +16,8 @@ for (var i = 1; i < data.length; i++) {
 ```javascript
 var spreadSheet = SpreadsheetApp.getActiveSpreadsheet();  
 var sheet = spreadSheet.getSheets()[4];
-globalSheet.getRange(3, 8).setValue();
+// Row, Column - starting at 1
+sheet.getRange(3, 8).setValue();
 ```
 
 ### On edit
