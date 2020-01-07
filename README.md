@@ -44,6 +44,13 @@ https://itnext.io/the-android-launchmode-animated-cheatsheet-6657e5dd9b0f
 }
 ```
 
+## Git
+
+```bash
+# list all the commit between <BRANCH_NEW> & <BRANCH_OLD>
+$ git log --left-right --graph --cherry-pick --oneline <BRANCH_NEW>...<BRANCH_OLD>
+```
+
 ## Colors
 
 Alpha Cheat Sheet:
