@@ -22,4 +22,14 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 ```
+
+## Delete System App
+
+- Restart and press Command R
+- run this command on the terminal:
+```
+csrutil disable
+# remove the app here
+csrutil enable
+```
 		
