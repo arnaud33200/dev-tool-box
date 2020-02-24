@@ -30,6 +30,7 @@ function onEdit(e) {
 }
 ```
 
+
 ### Utils
 
 compare string regex:
@@ -38,4 +39,46 @@ var result = RegExp(textToSearch).test(fullText);
 
 // OR Index of
 if (fullText.indexOf(textToSearch) > -1) {
+```
+
+### Jira Integration
+
+```javascript
+// * 1 - create an API token: https://id.atlassian.com/manage/api-tokens
+// * 2 - generate a Base64 Auth using this command: echo -n user@example.com:api_token_string | base64
+var base64Auth = "<BASE_64_TOKEN>";
+var jiraProjectCode = "<PROJECT_CODE"; // e.g. "ABC"
+
+var headers = { 
+  "content-type": "application/json",
+  "Accept": "application/json",
+  "Authorization": "Basic " + base64Auth
+};
+
+var issueSearchUrl = "https://<company>.atlassian.net/rest/api/2/issue";
+
+function createJiraIssue(e) {
+  var data = {
+    "fields": {
+      "project":{ "key": jiraProjectCode },
+      "summary": summary,
+      "labels": [label2, label1],
+      "description": fullDescription,
+      "issuetype": { "name": taskType },
+      "assignee": { "id": assignee },
+      "reporter": { "id": requesterId },
+      "priority": { "name": priorityOption },
+    }
+  };
+  
+  // Json + API Request
+  
+  var payload = JSON.stringify(data);
+  var options = { "content-type": "application/json", "method": "POST",
+    "headers": headers,"payload": payload };  
+  
+  var response = UrlFetchApp.fetch(issueApiUrl, options);
+  var dataAll = JSON.parse(response.getContentText());
+  var issueKey = dataAll.key;
+}
 ```
