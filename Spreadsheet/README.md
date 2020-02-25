@@ -4,8 +4,8 @@
 
 ```javascript
 var spreadSheet = SpreadsheetApp.getActiveSpreadsheet();  
-var sheet = spreadSheet.getSheets()[1];
-var data = dataSheet.getDataRange().getValues();
+var sheet = spreadSheet.getSheets()[0]; // index start 0
+var data = sheet.getDataRange().getValues();
 for (var i = 1; i < data.length; i++) {
   var status = data[i][0];
 }
@@ -55,7 +55,7 @@ var headers = {
   "Authorization": "Basic " + base64Auth
 };
 
-var issueSearchUrl = "https://<company>.atlassian.net/rest/api/2/issue";
+var issueApiUrl = "https://<company>.atlassian.net/rest/api/2/issue";
 
 function createJiraIssue(e) {
   var data = {
